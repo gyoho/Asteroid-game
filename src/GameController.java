@@ -7,6 +7,7 @@ public class GameController {
 		/***Note: calling run method will actually runs run method in GameMover class***/
 		world.run();		
 		
+		// multi-threading does't work
 		AsteroidGame.GameMover game = world.new GameMover();
 		game.start();
 	}
